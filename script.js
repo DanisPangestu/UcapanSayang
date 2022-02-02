@@ -76,7 +76,7 @@ document.querySelector(".tombol").addEventListener('click', function () {
                           Swal.fire('Yaudah deh bai!')
                         })
                       }
-                    })
+                    }) 
                   })
                 })
               })
