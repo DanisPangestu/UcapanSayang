@@ -1,3 +1,5 @@
+function play() {
+var audio = new Audio('https://bukadulu.likeadream.repl.co/Dandelions.mp3');audio.play();}
 let nama, val;
 const url_string = document.URL;
 const url = new URL(url_string);
