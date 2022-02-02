@@ -1,4 +1,3 @@
-
 let nama, val;
 const url_string = document.URL;
 const url = new URL(url_string);
@@ -7,22 +6,22 @@ let sender;
 if (url.searchParams.get('by') != null) {
   sender = url.searchParams.get('by');
 } else {
-  sender = "Adam";
+  sender = "Danis";
 }
 
 let footer = document.getElementById("credit");
 footer.innerHTML = sender;
-footer.href = "https://www.instagram.com/adamukti/";
+// footer.href = "#";
 
 document.querySelector(".tombol").addEventListener('click', function () {
-  Swal.fire("Hallo Sayangku", "Aku ada pertanyaan nih buat kamu?", "question").then(function () {
-    Swal.fire("Jawab yang jujur ya!").then(function () {
-      Swal.fire("Awas aja kalo boong!!", "", "error").then(function () {
+  Swal.fire("Sayang", "aku mau nanya sama kamu?", "question").then(function () {
+    Swal.fire("jujur ya!").then(function () {
+      Swal.fire("Don't Lie, OK!!", "", "error").then(function () {
 
         const {
           value: name
         } = Swal.fire({
-          title: 'Masukin nama kamu dulu',
+          title: 'Masukin nama kamu',
           input: 'text',
           inputLabel: '',
           showCancelButton: true,
