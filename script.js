@@ -66,7 +66,7 @@ document.querySelector(".tombol").addEventListener('click', function () {
                     }).then((result) => {
                       /* Read more about isConfirmed, isDenied below */
                       if (result.isConfirmed) {
-                        Swal.fire(`Huhu iya ${sender} juga kangen ${nama} :((`).then(function () {
+                        Swal.fire(`kalau kangen coba chat whatapps ${sender} doi juga kangen sama ${nama} kasian stres dia, mau chat tapi bingung udah masuk perkuliahan :((`).then(function () {
                           Swal.fire('Terakhir yank').then(function () {
                             Swal.fire('Coba klik ikon hati di paling bawah dong')
                           })
